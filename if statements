@@ -1,0 +1,42 @@
+#35
+x = int(input("input value of x:"))
+if x % 2 == 1:
+    print("the number is odd")
+else:
+    print("the number is even")
+#36
+age = int(input("please input the age of the dog in human years:"))
+if age <= 0:
+    print("error:please input a valid age")
+else:
+    if age == 1:
+        print("your dog is 10.5 dog years old")
+    if age == 2:
+        print("your dog is 21 dog years old")
+    if age >= 3:
+        age_one = (age - 2) * 4
+        age_two = 21
+        final_age = (age_one + age_two)
+        print(f"your dog is {final_age} years old in dog years")
+#36
+letter = input("input letter of alphabet:")
+if letter == "a" or letter == "e" \
+    or letter == "i" or letter == "o" \
+    or letter == "u" :
+    print("this is a vowel")
+else:
+    print("it is a constanent")
+if letter == "y":
+    print("sometimes it is a vowel and sometimes it is a constanent")
+ #37
+ sides = int(input("insert amount of sides on the shape:"))
+
+if sides == 3:
+    print("this is a triangle")
+if sides == 4:
+    print("this is a quadrilateral")
+if sides == 5
+    print("this is a pentagon")
+if sides == 6
+    print("this is a hexagon")
+if sides == 7
